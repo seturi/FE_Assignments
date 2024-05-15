@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contents{
+    display: flex;flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(violet, orange)
+}
+
+.buttons {
+    margin-top: 30px;
+}
+
+h1 {
+    color: white;
+    font-size: 50px;
+    transition: color 0.3s linear;
+    margin-bottom: 30px;
+}
+
+hr {
+    width: 300px;
+}
+
+.change {
+    color: red;
+    transition: color 0.3s linear;
+}
+
+button {
+    font-size: 20px;
+    width: 100px;
+    height: 60px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: color 0.5s,
+    background-color 0.5s, font-weight 0.5s;
+}
+
+button:hover {
+    background-color: #bbb;
+    font-weight: bold;
+}
+
+#inc:hover {
+    color: blue;
+}
+#reset:hover {
+    color: green;
+}
+#dec:hover {
+    color: red;
+}
